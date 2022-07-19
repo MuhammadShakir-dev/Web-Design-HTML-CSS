@@ -1,0 +1,383 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Anton", sans-serif;
+  font-family: "Comfortaa", cursive;
+  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Source Code Pro", monospace;
+  background-color: whitesmoke;
+}
+
+.nav {
+  background-color: #f2f2f2;
+  padding: 0px;
+  margin: 0px;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  z-index: 1;
+}
+.nav ul li {
+  display: inline-block;
+  padding: 12px;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+.nav ul {
+  display: inline-block;
+  margin-left: 400px;
+  margin-top: 15px;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 40px;
+  float: right;
+  color: #f2f2f2;
+}
+.nav button {
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color: purple;
+  color: #f2f2f2;
+  display: inline-block;
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  border: none;
+  font-family: "Anton", sans-serif;
+  font-family: "Comfortaa", cursive;
+  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Source Code Pro", monospace;
+}
+.nav b {
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: large;
+  margin-top: -5px;
+  color: #f2f2f2;
+}
+
+.main {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  top: 70px;
+  border-bottom: 2px solid gainsboro;
+  background-color: white;
+}
+.main ul {
+  display: inline-block;
+}
+.main ul li {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+.main h2 {
+  display: inline-block;
+  font-weight: 400;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.select {
+  border-bottom: 5px solid black;
+}
+
+.subselect {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  top: 75px;
+}
+.subselect ul {
+  display: inline-block;
+  margin-left: 70px;
+}
+.subselect ul li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 20px;
+}
+.second {
+  color: black;
+}
+.first {
+  color: grey;
+}
+.third {
+  color: grey;
+}
+
+.container {
+  width: 99%;
+  height: 530px;
+  position: relative;
+  top: 75px;
+}
+.one {
+  width: 300px;
+  height: 250px;
+  display: inline-block;
+  border: 1px solid gainsboro;
+  margin-left: 110px;
+  box-shadow: 2px 2px 5px 0px gainsboro, -2px -2px 5px 0px gainsboro;
+  overflow: hidden;
+}
+.one img {
+  width: 100%;
+  height: 100%;
+}
+.two {
+  display: inline-block;
+  border: 1px solid gainsboro;
+  width: 300px;
+  height: 250px;
+  margin-left: 20px;
+  box-shadow: 2px 2px 5px 0px gainsboro, -2px -2px 5px 0px gainsboro;
+  overflow: hidden;
+}
+.two img {
+  width: 100%;
+  height: 100%;
+}
+.three {
+  display: inline-block;
+  border: 1px solid gainsboro;
+  width: 300px;
+  height: 250px;
+  margin-left: 20px;
+  box-shadow: 2px 2px 5px 0px gainsboro, -2px -2px 5px 0px gainsboro;
+  overflow: hidden;
+}
+.three img {
+  width: 100%;
+  height: 100%;
+}
+.four {
+  display: inline-block;
+  border: 1px solid gainsboro;
+  width: 300px;
+  height: 250px;
+  margin-left: 20px;
+  box-shadow: 2px 2px 5px 0px gainsboro, -2px -2px 5px 0px gainsboro;
+  overflow: hidden;
+}
+.four img {
+  width: 100%;
+  height: 100%;
+}
+.five {
+  display: inline-block;
+  border: 1px solid gainsboro;
+  width: 300px;
+  height: 250px;
+  margin-left: 110px;
+  margin-top: 7px;
+  box-shadow: 2px 2px 5px 0px gainsboro, -2px -2px 5px 0px gainsboro;
+  overflow: hidden;
+}
+.five img {
+  width: 100%;
+  height: 100%;
+}
+.six {
+  display: inline-block;
+  border: 1px solid gainsboro;
+  width: 300px;
+  height: 250px;
+  margin-left: 20px;
+  margin-top: 7px;
+  box-shadow: 2px 2px 5px 0px gainsboro, -2px -2px 5px 0px gainsboro;
+  overflow: hidden;
+}
+.six img {
+  width: 100%;
+  height: 100%;
+}
+.seven {
+  display: inline-block;
+  border: 1px solid gainsboro;
+  width: 300px;
+  height: 250px;
+  margin-left: 20px;
+  margin-top: 7px;
+  box-shadow: 2px 2px 5px 0px gainsboro, -2px -2px 5px 0px gainsboro;
+  overflow: hidden;
+}
+.seven img {
+  width: 100%;
+  height: 100%;
+}
+.eight {
+  display: inline-block;
+  border: 1px solid gainsboro;
+  width: 300px;
+  height: 250px;
+  margin-left: 20px;
+  margin-top: 7px;
+  box-shadow: 2px 2px 5px 0px gainsboro, -2px -2px 5px 0px gainsboro;
+  overflow: hidden;
+}
+.eight img {
+  width: 100%;
+  height: 100%;
+}
+
+.one button {
+  justify-content: center;
+  margin: 5px 50px 0px 110px;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  bottom: 75px;
+  right: 55px;
+  border: none;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+.one button:hover {
+  background-color: black;
+  color: white;
+}
+.two button {
+  justify-content: center;
+  margin: 5px 50px 0px 110px;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  bottom: 75px;
+  right: 55px;
+  border: none;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+.two button:hover {
+  background-color: black;
+  color: white;
+}
+
+.three button {
+  justify-content: center;
+  margin: 5px 50px 0px 110px;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  bottom: 75px;
+  right: 55px;
+  border: none;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+.three button:hover {
+  background-color: black;
+  color: white;
+}
+
+.four button {
+  justify-content: center;
+  margin: 5px 50px 0px 110px;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  bottom: 75px;
+  right: 55px;
+  border: none;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+.four button:hover {
+  background-color: black;
+  color: white;
+}
+
+.five button {
+  justify-content: center;
+  margin: 5px 50px 0px 110px;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  bottom: 75px;
+  right: 55px;
+  border: none;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+.five button:hover {
+  background-color: black;
+  color: white;
+}
+
+.six button {
+  justify-content: center;
+  margin: 5px 50px 0px 110px;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  bottom: 75px;
+  right: 55px;
+  border: none;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+.six button:hover {
+  background-color: black;
+  color: white;
+}
+
+.seven button {
+  justify-content: center;
+  margin: 5px 50px 0px 110px;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  bottom: 75px;
+  right: 55px;
+  border: none;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+.seven button:hover {
+  background-color: black;
+  color: white;
+}
+
+.eight button {
+  justify-content: center;
+  margin: 5px 50px 0px 110px;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  bottom: 75px;
+  right: 55px;
+  border: none;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+.eight button:hover {
+  background-color: black;
+  color: white;
+}
+
+.nav .sign:hover {
+  background-color: white;
+  color: black;
+}
